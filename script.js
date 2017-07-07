@@ -28,7 +28,7 @@ function smallNums(){
     // Your answer here:
     for (var i = 0; i < numbers.length; i++){
       numbers[i]
-    }if (numbers[i] < 10){
+    if (numbers[i] < 10)
     smallNums.push(numbers[i])
   }return smallNums
 }
@@ -81,7 +81,7 @@ function addActor(){
 */
 function getLosses(){
     // Your answer here:
-    film.loss = film.budget - film.boxoffice
+    film.loss = film.boxoffice - film.budget
     return film.loss
 }
 
@@ -131,6 +131,5 @@ function union(){
       second[i]
       if (first[i] === second[i])
         same.push(first[i])
-        return same
-    }
+    }return same
 }
